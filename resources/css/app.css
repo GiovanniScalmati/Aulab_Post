@@ -1,0 +1,12 @@
+@import 'bootstrap';
+@import './style.css';
+@import 'bootstrap-icons';
+@import './createForm.css';
+@import './footer.css';
+@import './card.css';
+@import './about.css';
+@import './navbar.css';
+@import './article/details-article.css';
+@import './color-font.css';
+@import './tables/tables.css';
+@import './careers/careers.css';

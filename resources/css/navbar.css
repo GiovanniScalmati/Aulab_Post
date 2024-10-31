@@ -1,0 +1,145 @@
+
+.nav-custom{
+    color: white;
+    margin: 3vh 3vw;
+    border: 1px solid black ;
+    border-radius: 8px;
+    backdrop-filter:blur(10px) ;
+    background-color:#08415c79;
+    position: fixed;
+    z-index: 10;
+    width: 94%;
+    min-height: 55px;
+}
+
+.nav-primary{
+    background-color:#08415cfa ;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    margin: 0;
+    border-radius: 0px;
+    border: none ;
+    min-height: 55px;
+}
+
+.transition{
+    transition: 500ms;
+}
+
+.nav-link{
+    color:white;
+}
+
+
+
+.img-navbar {
+    max-width: 60px;
+    height: auto; 
+    display: block; 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    margin: auto 0; 
+}
+
+/* DROPDOWN MENU  */
+
+.dropdown-menu {
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.dropdown-menu li {
+    list-style: none; 
+}
+
+.dropdown-menu li a {
+    display: block; 
+    padding: 8px 12px; 
+    color: #000000; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.custom-link {
+    color: white;
+
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.custom-link:hover {
+    color: rgb(61, 61, 67); 
+}
+
+/* BOTTONE NAVBAR  */
+.buttondrop{
+    
+    background-color: var(--c-tertiary)!important;
+    color: var(--c-primary) !important;
+    /* padding: 15px 50px; */
+    /* border-radius: 10px!important; */
+    transition: 1.2s!important;
+    position: relative!important;
+    overflow: hidden!important;
+}
+.btndrop{
+    color: var(--c-primary)!important;
+}
+.btndrop:hover{
+    background-color: var(--c-primary)!important;
+    color: var(--c-tertiary)!important;
+}
+.buttondrop::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: var(--c-primary);
+    z-index: -1;
+    transition: 1.2s;
+}
+.btndrop::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+.btndrop:hover::before{
+    height: 180%;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+/* RICERCA  */
+.btn11 {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.search-icon {
+    color: rgb(255, 255, 255); 
+    padding-right: 10px;
+}
+
+.search-input {
+    width: 110px; 
+    height: 30px;
+    border-color: rgb(253, 253, 253); 
+}
+
+.search-input:focus {
+    outline: none; 
+    border-color: rgb(253, 253, 253); 
+    box-shadow: none; 
+}
+
+
+ 

@@ -1,0 +1,93 @@
+.form-create{
+    background-color: #adb5bd80;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 50px 50px 50px 50px rgba(0, 0, 0, 0.2);
+    padding: 10px 100px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(128, 128, 128, 0.022);
+    border: 2px solid rgba(0, 0, 0, 0.122);
+}
+.form-create input{
+    background-color: var(--c-tertiary);
+    text-align: center;
+    padding: 10px 50px;
+    border: 2px solid rgba(20, 11, 11, 0.251);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.form-create select{
+    text-align: center;
+    padding: 10px 50px;
+    border: 2px solid rgb(20, 11, 11, 0.251);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.form-create textarea{
+    background-color: var(--c-tertiary);
+    text-align: center;
+    padding: 10px 50px;
+    border: 2px solid rgb(20, 11, 11, 0.251);
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* Animazione BTN */
+.custom-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px; 
+    font-size: 20px; 
+}
+.button{ 
+    background-color: var(--c-tertiary)!important;
+    color: var(--c-primary) !important;
+    padding: 15px 50px;
+    border: 2px solid rgb(20, 11, 11, 0.251) ;
+    border-radius: 15px!important;
+    transition: 1s!important;
+    position: relative!important;
+    overflow: hidden!important;
+}
+.btn1{
+    color: var(--c-primary)!important;
+}
+.btn1:hover{
+    background-color: var(--c-primary)!important;
+    color: var(--c-tertiary)!important;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: var(--c-primary);
+    z-index: -1;
+    transition: .5s;
+}
+.btn1::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+.btn1:hover::before{
+    height: 180%;
+}
+/* messaggi di errore */
+.custom-error{
+    font-size: 10px;
+    text-align: start;
+    /* background-color: red; */
+    padding: 0px 15px;
+}
+
+.fs-form-immagine{
+    font-size: 12px;
+}
+
+.mgn-custom{
+    margin-top: 50px;
+}
+
+
+
